@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1 {
+    font-size:2.5rem;
+    color:#e7189b;
+    font-weight:900;
+
+}
+h2 {
+    font-size:2rem;
+    font-weight:300;
+}
+p{
+    color:dimgray;
+    padding-bottom: 2%;
+}
+.half-width{
+    padding:2%;
+    float:left;
+    width: 40%;
+}
+.half-width a {
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(45deg,rgb(245, 26, 26),rgb(230, 81, 210));
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.half-width img {
+    width:100%;
+}
+
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.biography {
+    background-image:url("images/biography-bg.png");
+    height: 100vh;
+}
+.bio-half{
+    padding-top:20%;
+   
+}
+.my-lattest-work img {
+
+    width:20%;
+    height:20%; 
+    margin-left:200px;
+    margin-top: 50px;
+   
+}
+.client {
+    text-align:center;
+    
+}
+.client a {
+    text-decoration:none;
+    color:white;
+    background-image:linear-gradient(45deg,rgb(245, 26, 26),rgb(230, 81, 210));
+    padding:30px;
+    border-radius: 5px;
+}
+
+.footer2{
+    text-align:center;
+    margin-top:70px;
+}
+.footer {
+    background-image:url("images/footer-bg.png");
+    height:100vh
+}
